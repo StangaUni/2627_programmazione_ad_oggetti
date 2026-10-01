@@ -1,0 +1,40 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# --- Markup & data ---
+*.md      text eol=lf diff=markdown
+*.mdx     text eol=lf diff=markdown
+*.json    text eol=lf
+*.txt     text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+
+# --- Source code (corsi di programmazione) ---
+*.c       text eol=lf diff=c
+*.h       text eol=lf diff=c
+*.cpp     text eol=lf diff=cpp
+*.hpp     text eol=lf diff=cpp
+*.py      text eol=lf diff=python
+*.java    text eol=lf diff=java
+*.rs      text eol=lf
+*.sh      text eol=lf
+
+# --- Diagrammi vettoriali (testuali) ---
+*.svg     text eol=lf
+
+# --- Binary: never diff, never convert ---
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.webp    binary
+*.ico     binary
+*.pdf     binary
+*.zip     binary
+*.tar     binary
+*.gz      binary
+*.o       binary
+*.out     binary
+*.exe     binary
+*.class   binary
+*.excalidraw binary

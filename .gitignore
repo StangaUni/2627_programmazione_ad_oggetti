@@ -1,0 +1,45 @@
+# --- Editor / AI locali (mai pubblici) ---
+.claude/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.trash/
+
+# --- Materiale didattico originale UniPD (copyright) ---
+# Slide, registrazioni e dispense dei docenti: non pubblicare.
+Lezioni/
+
+# --- Lavoro personale non ancora pronto ---
+Riscritti/
+Esami/
+private/
+
+# --- Sorgenti diagrammi (pubblicare solo gli SVG esportati) ---
+assets/*.excalidraw
+assets/**/*.excalidraw
+**/schemi_riassunti/
+
+# --- Sistema operativo / IDE ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# --- Build / temporanei ---
+*.o
+*.out
+*.exe
+*.class
+*.pyc
+__pycache__/
+node_modules/
+dist/
+build/
+*.log
+*.tmp
+*.bak
